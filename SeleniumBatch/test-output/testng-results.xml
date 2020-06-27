@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37057" started-at="2020-03-22T19:48:55 IST" finished-at="2020-03-22T19:49:32 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37057" started-at="2020-03-22T19:48:55 IST" finished-at="2020-03-22T19:49:32 IST">
+      <class name="com.techinfuse.qw.AT2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techinfuse.qw.AT2@2b552920]" name="beforeTest" is-config="true" duration-ms="16263" started-at="2020-03-22T19:48:55 IST" finished-at="2020-03-22T19:49:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.techinfuse.qw.AT2@2b552920]" name="loginTest" duration-ms="20749" started-at="2020-03-22T19:49:11 IST" finished-at="2020-03-22T19:49:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techinfuse.qw.AT2@2b552920]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-03-22T19:49:32 IST" finished-at="2020-03-22T19:49:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.techinfuse.qw.AT2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
