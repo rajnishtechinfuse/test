@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37057" started-at="2020-03-22T19:48:55 IST" finished-at="2020-03-22T19:49:32 IST">
+  <suite name="Default suite" duration-ms="11861" started-at="2020-06-28T13:29:17 IST" finished-at="2020-06-28T13:29:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37057" started-at="2020-03-22T19:48:55 IST" finished-at="2020-03-22T19:49:32 IST">
-      <class name="com.techinfuse.qw.AT2">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techinfuse.qw.AT2@2b552920]" name="beforeTest" is-config="true" duration-ms="16263" started-at="2020-03-22T19:48:55 IST" finished-at="2020-03-22T19:49:11 IST">
+    <test name="Default test" duration-ms="11861" started-at="2020-06-28T13:29:17 IST" finished-at="2020-06-28T13:29:29 IST">
+      <class name="com.techinfuse.selday1.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techinfuse.selday1.NewTest@59e5ddf]" name="beforeTest" is-config="true" duration-ms="13" started-at="2020-06-28T13:29:17 IST" finished-at="2020-06-28T13:29:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.techinfuse.qw.AT2@2b552920]" name="loginTest" duration-ms="20749" started-at="2020-03-22T19:49:11 IST" finished-at="2020-03-22T19:49:32 IST">
+        <test-method status="PASS" signature="f1()[pri:0, instance:com.techinfuse.selday1.NewTest@59e5ddf]" name="f1" duration-ms="11797" started-at="2020-06-28T13:29:17 IST" finished-at="2020-06-28T13:29:29 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techinfuse.qw.AT2@2b552920]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-03-22T19:49:32 IST" finished-at="2020-03-22T19:49:32 IST">
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:com.techinfuse.selday1.NewTest@59e5ddf]" name="f2" duration-ms="3" started-at="2020-06-28T13:29:29 IST" finished-at="2020-06-28T13:29:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="f3()[pri:0, instance:com.techinfuse.selday1.NewTest@59e5ddf]" name="f3" duration-ms="2" started-at="2020-06-28T13:29:29 IST" finished-at="2020-06-28T13:29:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="PASS" signature="f4()[pri:0, instance:com.techinfuse.selday1.NewTest@59e5ddf]" name="f4" duration-ms="2" started-at="2020-06-28T13:29:29 IST" finished-at="2020-06-28T13:29:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techinfuse.selday1.NewTest@59e5ddf]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-06-28T13:29:29 IST" finished-at="2020-06-28T13:29:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.techinfuse.qw.AT2 -->
+      </class> <!-- com.techinfuse.selday1.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

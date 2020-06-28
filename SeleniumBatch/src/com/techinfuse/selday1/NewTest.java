@@ -5,13 +5,17 @@ import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterTest;
 
 public class NewTest {
   @Test
   public void f1() {
 	  System.setProperty("webdriver.chrome.driver", "C:\\Rajnish\\personal\\Shubham\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		
+	  ChromeOptions c = new ChromeOptions();
+	  c.addArguments("headless");
+	  WebDriver driver = new ChromeDriver(c);
 		driver.get("http://demo.guru99.com/test/upload/");
 		
 		driver.findElement(By.id("uploadfile_0")).sendKeys("C:\\Rajnish\\a.txt");

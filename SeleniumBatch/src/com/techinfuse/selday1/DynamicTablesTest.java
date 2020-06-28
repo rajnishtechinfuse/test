@@ -23,7 +23,7 @@ public class DynamicTablesTest {
 	       
 	        WebElement baseTable = driver.findElement(By.tagName("table"));
 	        
-	        baseTable.getCssValue(arg0)
+	      //  baseTable.getCssValue(arg0)
 			  
 			 //To find 2nd row of table
 			 WebElement tableRow = baseTable.findElement(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr[2]"));
